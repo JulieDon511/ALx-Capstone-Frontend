@@ -1,4 +1,4 @@
-function CropsPage (){
+function Home (){
     return(
         <div>
 
@@ -6,4 +6,4 @@ function CropsPage (){
     )
 }
 
-export default CropsPage;
+export default Home;

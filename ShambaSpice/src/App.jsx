@@ -1,19 +1,39 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Dashboard from "./pages/Dashboard"
-import Crop from "./pages/Crop"
-import Expenses from "./pages/Expenses";
+import Home from "./pages/Home";
+import List from "./pages/List";
+import Services from "./pages/Services";
+import Projects from "./pages/Projects";
+import Footer from "./components/Footer";
+import About from "./pages/About";
+import Grid from "./pages/Grid";
+import Contact from "./pages/Contact";
+import Shop from "./pages/Shop";
 
-export default function App() {
+
+
+ function App() {
   return (
     <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Navigate to="/dashboard" />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/crops" element={<Crop />} />
-        <Route path="/expenses" element={<Expenses />} />
-      </Routes>
+      <div className="min-h-screen flex flex-col">
+        <main className="flex-1">
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Navigate to="/home" />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/shop" element={<Shop />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/grid" element={<Grid />} />
+            <Route path="/list" element={<List />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 }
+
+export default App;
