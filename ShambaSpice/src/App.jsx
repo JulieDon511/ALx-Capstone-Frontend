@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Grid from "./pages/Grid";
 import Contact from "./pages/Contact";
 import Shop from "./pages/Shop";
+// import PageHeader from './components/PageHeader';
 
 
 
@@ -29,6 +30,8 @@ import Shop from "./pages/Shop";
             <Route path="/grid" element={<Grid />} />
             <Route path="/list" element={<List />} />
           </Routes>
+
+        
         </main>
         <Footer />
       </div>
