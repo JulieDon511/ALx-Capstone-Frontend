@@ -1,6 +1,7 @@
 // import PageHeader from '../components/PageHeader'
 // import Card from '../components/Card'
 import Tractorfarmenr from "../assets/Tractorfarmer.jpg"
+import AboutInfo from "../components/AboutInfo"
 import HeroCardnfo from "../components/HeroCardInfo"
 
 
@@ -25,6 +26,7 @@ export default function Home() {
         </section>
         {/* card */}
         <HeroCardnfo />
+        <AboutInfo />
 
     </>
      
