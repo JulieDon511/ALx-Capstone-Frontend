@@ -63,8 +63,6 @@ export default function AboutInfo() {
             width="236"
             title="Farm video"
             className="w-full h-full"
-            frameBorder="0"
-            scrolling="no"
           ></iframe>
 
           <button className="absolute inset-0 flex items-center justify-center bg-black/40 hover:bg-black/50 transition">
