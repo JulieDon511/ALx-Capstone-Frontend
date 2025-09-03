@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 function HeroCardnfo (){
     const navigate =useNavigate();
     const HandleNavigate= () =>{
-        navigate("/projects");
+        navigate("/about");
     }
     
 
