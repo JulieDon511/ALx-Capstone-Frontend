@@ -18,8 +18,9 @@ export default function Navbar() {
             <NavLink to="/home" className={linkClasses} end>Home</NavLink>
             <NavLink to="/about" className={linkClasses}>About</NavLink>
             <NavLink to="/services" className={linkClasses}>Services</NavLink>
-            <NavLink to="/projects" className={linkClasses}>Projects</NavLink>
             <NavLink to="/shop" className={linkClasses}>Shop</NavLink>
+            <NavLink to="/healthyfoods" className={linkClasses}>HealthyFoods</NavLink>
+
             <NavLink to="/contact" className={linkClasses}>Contact</NavLink>
 
             {/* Crop Management Dropdown */}
@@ -28,12 +29,10 @@ export default function Navbar() {
                 Crop Management
               </span>
               <div className="absolute top-full left-0 mt-1 bg-white shadow-md rounded-md hidden group-hover:flex flex-col z-10 min-w-[140px]">
-                <NavLink to="/grid" className="px-4 py-2 text-slate-700 hover:bg-gray-100 hover:text-black">
-                  Grid
+                <NavLink to="/projects" className="px-4 py-2 text-slate-700 hover:bg-gray-100 hover:text-black">
+                  Projects
                 </NavLink>
-                <NavLink to="/list" className="px-4 py-2 text-slate-700 hover:bg-gray-100 hover:text-black">
-                  List
-                </NavLink>
+               
               </div>
             </div>
           </nav>

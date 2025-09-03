@@ -1,14 +1,13 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import List from "./pages/List";
 import Services from "./pages/Services";
 import Projects from "./pages/Projects";
 import Footer from "./components/Footer";
 import About from "./pages/About";
-import Grid from "./pages/Grid";
 import Contact from "./pages/Contact";
 import Shop from "./pages/Shop";
+import HealthyFoods from "./pages/HealthyFoods";
 // import PageHeader from './components/PageHeader';
 
 
@@ -27,8 +26,7 @@ import Shop from "./pages/Shop";
             <Route path="/projects" element={<Projects />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/grid" element={<Grid />} />
-            <Route path="/list" element={<List />} />
+            <Route path="/healthyfoods" element={<HealthyFoods />} />
           </Routes>
 
         
