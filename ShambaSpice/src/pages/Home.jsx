@@ -29,8 +29,6 @@ export default function Home() {
         <HeroCardnfo />
         <AboutInfo />
         <ProductInfo />
-{/* // Test change for Git tracking
- */}
     </>
      
   )

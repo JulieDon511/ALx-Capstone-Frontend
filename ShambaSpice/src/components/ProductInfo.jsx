@@ -1,6 +1,6 @@
 // import React from 'react'
 import PageHeader from "./PageHeader"
-import ImageCard from "./ImageCard"
+import ImageCard from "./Cards"
 function ProductInfo() {
   return (
     <>
@@ -23,6 +23,13 @@ function ProductInfo() {
             </div>
             <div className="md:col-span-1 max-w-7xl ">
                 <ImageCard src="/milkproduction.jpg" alt="MILK" className="rounded-lg shadow-lg object-cover w-301.5 h-[250px]" />
+            </div>
+        </div>
+
+        <div className="">
+            <div className="">
+                <PageHeader title=""
+                subtitle="" />
             </div>
         </div>
        
