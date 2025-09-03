@@ -36,9 +36,12 @@ export default function AboutInfo() {
 
         {/* Page Header with Stats */}
         <div className="col-span-1 flex flex-col justify-center">
-          <PageHeader
+          <PageHeader 
             title="Why Choose Us"
             subtitle="Growing crops and raising livestock."
+            
+
+        
           >
             <div className="space-y-6 mt-6">
               <div>

@@ -3,6 +3,7 @@
 import Tractorfarmenr from "../assets/Tractorfarmer.jpg"
 import AboutInfo from "../components/AboutInfo"
 import HeroCardnfo from "../components/HeroCardInfo"
+import ProductInfo from "../components/ProductInfo"
 
 
 export default function Home() {
@@ -27,7 +28,9 @@ export default function Home() {
         {/* card */}
         <HeroCardnfo />
         <AboutInfo />
-
+        <ProductInfo />
+{/* // Test change for Git tracking
+ */}
     </>
      
   )
