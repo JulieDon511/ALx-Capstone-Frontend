@@ -8,16 +8,17 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Shop from "./pages/Shop";
 import HealthyFoods from "./pages/HealthyFoods";
-// import PageHeader from './components/PageHeader';
 
-
-
- function App() {
+function App() {
   return (
     <BrowserRouter>
       <div className="min-h-screen flex flex-col">
+        
+        {/* Navbar stays fixed at the top */}
+        <Navbar />
+
+        {/* Main content grows and pushes footer down */}
         <main className="flex-1">
-          <Navbar />
           <Routes>
             <Route path="/" element={<Navigate to="/home" />} />
             <Route path="/home" element={<Home />} />
@@ -28,9 +29,9 @@ import HealthyFoods from "./pages/HealthyFoods";
             <Route path="/contact" element={<Contact />} />
             <Route path="/healthyfoods" element={<HealthyFoods />} />
           </Routes>
-
-        
         </main>
+
+        {/* Footer always at the bottom */}
         <Footer />
       </div>
     </BrowserRouter>
