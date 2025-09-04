@@ -1,5 +1,4 @@
 import { NavLink, Link } from 'react-router-dom'
-import Tractorfarmenr from "../assets/Tractorfarmer.jpg"
 
 const linkClasses = ({ isActive }) =>
   `px-3 py-2 rounded-md text-md font-medium transition-colors ${
