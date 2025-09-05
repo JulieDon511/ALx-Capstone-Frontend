@@ -19,8 +19,10 @@ export default function Navbar() {
             <NavLink to="/services" className={linkClasses}>Services</NavLink>
             <NavLink to="/shop" className={linkClasses}>Shop</NavLink>
             <NavLink to="/healthyfoods" className={linkClasses}>HealthyFoods</NavLink>
+            <NavLink to="/dashboard" className={linkClasses}>Dashboard</NavLink>
 
             <NavLink to="/contact" className={linkClasses}>Contact</NavLink>
+            <NavLink to="/login" className={linkClasses}>Login</NavLink>
 
             {/* Crop Management Dropdown */}
             <div className="relative group">

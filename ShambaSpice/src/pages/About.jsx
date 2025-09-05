@@ -3,6 +3,7 @@ import PageHeader from "../components/PageHeader";
 import { useNavigate } from "react-router-dom";
 import {TestimonialCard} from "../components/FloatingCard";
 import { OurFarmers } from "../components/FloatingCard";
+import { HeroCard } from "../components/Card";
 
 function About() {
   const navigate = useNavigate();
@@ -14,16 +15,10 @@ function About() {
   return (
     <>
       {/* Top Banner */}
-      <div className="justify-items-center relative w-full h-[250px]">
-        <ImageCard
-          src="/Frame.png"
-          alt="image"
-          className="object-cover w-full h-full"
-        />
-        <h1 className="items-center justify-center inset-0 absolute flex text-white text-4xl font-bold">
-          <PageHeader title="About Us" />
-        </h1>
-      </div>
+       <div className="">
+              <HeroCard img="/Frame.png" title="About Us"    heightClass=" h-[250px]"
+              />
+          </div>
 
       {/* Middle Content - Two Column Layout */}
       <div className="bg-white max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-10">

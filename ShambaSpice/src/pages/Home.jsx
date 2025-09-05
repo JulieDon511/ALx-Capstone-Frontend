@@ -1,7 +1,7 @@
 // import PageHeader from '../components/PageHeader'
 // import Card from '../components/Card'
-import Tractorfarmenr from "../assets/Tractorfarmer.jpg"
 import AboutInfo from "../components/AboutInfo"
+import { HeroCard } from "../components/Card"
 import HeroCardnfo from "../components/HeroCardInfo"
 import ProductInfo from "../components/ProductInfo"
 
@@ -10,22 +10,10 @@ export default function Home() {
   
   return (
     <>
-     <section
-            className="relative h-screen bg-cover bg-center">
-        
-            <div
-                className="absolute inset-0 bg-cover bg-center blur-none"
-                style={{ backgroundImage: `url(${Tractorfarmenr})` }} >
-            </div>
-        
-            {/* <div className="absolute inset-0 bg-black/40"></div>  */}
-        
-            <div className="relative z-10"></div> 
-
-               < div className="relative z-10 flex items-center justify-center h-full text-green-500"> 
-             <h1 className="text-7xl font-bold ">Welcome to Shamba Spice</h1>
-            </div>
-        </section>
+    <div className="h-screen ">
+      <HeroCard img="/homepage.jpg" title="Welcome To ShambaSpice" subtitle="Smart Tools for Smarter Farming"/>
+    </div>
+     
         {/* card */}
         <HeroCardnfo />
         <AboutInfo />
