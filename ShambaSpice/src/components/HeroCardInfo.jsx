@@ -1,5 +1,5 @@
 // import PageHeader from "./PageHeader";
-import FloatingCard from "../components/FloatingCard";
+import {FloatingCard} from "../components/FloatingCard";
 import { useNavigate } from "react-router-dom";
 function HeroCardnfo (){
     const navigate =useNavigate();

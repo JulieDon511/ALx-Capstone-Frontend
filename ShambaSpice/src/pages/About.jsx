@@ -1,6 +1,8 @@
 import { ImageCard } from "../components/Card";
 import PageHeader from "../components/PageHeader";
 import { useNavigate } from "react-router-dom";
+import {TestimonialCard} from "../components/FloatingCard";
+import { OurFarmers } from "../components/FloatingCard";
 
 function About() {
   const navigate = useNavigate();
@@ -99,6 +101,10 @@ function About() {
           ></iframe>
         </div>
       </section>
+
+      {/* testimonials */}
+      <TestimonialCard />
+      <OurFarmers />
     </>
   );
 }
