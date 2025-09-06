@@ -1,6 +1,9 @@
 // import PageHeader from "./PageHeader";
-import {FloatingCard} from "../components/FloatingCard";
 import { useNavigate } from "react-router-dom";
+import { FloatingCards } from "./FloatingCard";
+import { fruitItems } from "../Data";
+// import { GiRaspberry, GiStrawberry, GiCorn, GiPeach } from "react-icons/gi";
+
 function HeroCardnfo (){
     const navigate =useNavigate();
     const HandleNavigate= () =>{
@@ -38,7 +41,11 @@ function HeroCardnfo (){
 
             </div>
 
-             <FloatingCard />
+          
+             
+             <div className="p-6 bg-white min-h-screen py-26">
+                <FloatingCards title="Fruits & Crops" items={fruitItems} showIcons={true} />
+            </div>
 
              <div className="">
                 <img src="/greenLeaf.jpg" alt="leaf" className="absolute -bottom-69 -right-1 w-30 opacity-80" />

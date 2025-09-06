@@ -1,24 +1,8 @@
 // src/pages/Projects.jsx
 import PageHeader from "../components/PageHeader";
-
+import { projects } from "../Data";
 export default function Projects() {
-  const projects = [
-    {
-      title: "Smart Irrigation System",
-      description: "Automated water scheduling to save resources and boost yields.",
-      image: "/projects/irrigation.jpg",
-    },
-    {
-      title: "Organic Farming Pilot",
-      description: "Helping farmers transition to sustainable, chemical-free farming.",
-      image: "/projects/organic.jpg",
-    },
-    {
-      title: "Farmer Marketplace",
-      description: "Connecting farmers directly to buyers for better prices.",
-      image: "/projects/marketplace.jpg",
-    },
-  ];
+
 
   return (
     <section className="bg-white py-12">
