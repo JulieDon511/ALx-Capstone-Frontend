@@ -46,13 +46,9 @@ export function TestimonialCard() {
           <div className="flex items-start gap-2 relative">
             {/* Profile Image */}
             <div className="relative group">
-              <img
-                src="/profileman.jpg"
-                alt="Peter Mwangi"
-                className="w-full h-[20] rounded-2xl object-cover transform transition-transform duration-300 group-hover:scale-110 border-4 border-white shadow-md" 
-                // i have added hover on the pictures
-
-              />
+              <ImageCard src="/profileman.jpg" alt="mansprofile" className="w-full h-[20] rounded-2xl object-cover transform transition-transform duration-300 group-hover:scale-110 border-4 border-white shadow-md "
+                />
+              
               {/* Floating Green Circle */}
               <div className="absolute -top-2 -right-2 w-6 h-6 bg-green-500 rounded-full border-2 border-white"></div>
             </div>
@@ -75,11 +71,8 @@ export function TestimonialCard() {
           <div className="flex items-start gap-4 relative">
             {/* Profile Image */}
             <div className="relative group">
-              <img
-                src="/profilelady.jpg"
-                alt="Grace Njeri"
-                className="w-full h-[20] rounded-2xl object-cover transform transition-transform duration-300 group-hover:scale-110 border-4 border-white shadow-md "
-              />
+              <ImageCard src="/profilelady.jpg" alt="ladysprofile" className="w-full h-[20] rounded-2xl object-cover transform transition-transform duration-300 group-hover:scale-110 border-4 border-white shadow-md "
+                />
               {/* Floating Green Circle */}
               <div className="absolute -top-2 -right-2 w-6 h-6 bg-green-500 rounded-full border-2 border-white"></div>
             </div>
@@ -122,10 +115,7 @@ export function OurFarmers() {
             <div className="flex items-start gap-2 relative">
               {/* Profile Image */}
               <div className="relative group">
-                <img
-                  src="/profileman.jpg"
-                  alt="Peter Mwangi"
-                  className="w-full h-[20] rounded-2xl object-cover transform transition-transform duration-300 group-hover:scale-110 border-4 border-white shadow-md"
+                <ImageCard src="/profileman.jpg" alt="mansprofile" className="w-full h-[20] rounded-2xl object-cover transform transition-transform duration-300 group-hover:scale-110 border-4 border-white shadow-md "
                 />
                
               </div>
@@ -144,10 +134,7 @@ export function OurFarmers() {
             <div className="flex items-start  relative">
               {/* Profile Image */}
               <div className="relative group">
-                <img
-                  src="/profilelady.jpg"
-                  alt="Grace Njeri"
-                  className="w-full h-[20] rounded-2xl object-cover transform transition-transform duration-300 group-hover:scale-110 border-4 border-white shadow-md"
+                <ImageCard src="/profilelady.jpg" alt="ladysprofile" className="w-full h-[20] rounded-2xl object-cover transform transition-transform duration-300 group-hover:scale-110 border-4 border-white shadow-md "
                 />
               </div>
 
