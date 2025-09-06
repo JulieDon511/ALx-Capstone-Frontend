@@ -46,7 +46,7 @@ export function TestimonialCard() {
           <div className="flex items-start gap-2 relative">
             {/* Profile Image */}
             <div className="relative group">
-              <ImageCard src="/profileman.jpg" alt="mansprofile" className="w-full h-[20] rounded-2xl object-cover transform transition-transform duration-300 group-hover:scale-110 border-4 border-white shadow-md "
+              <ImageCard src="/profileman.jpg" alt="mansprofile" className="w-full  rounded-2xl object-cover transform transition-transform duration-300 group-hover:scale-110 border-4 border-white shadow-md "
                 />
               
               {/* Floating Green Circle */}
@@ -71,7 +71,7 @@ export function TestimonialCard() {
           <div className="flex items-start gap-4 relative">
             {/* Profile Image */}
             <div className="relative group">
-              <ImageCard src="/profilelady.jpg" alt="ladysprofile" className="w-full h-[20] rounded-2xl object-cover transform transition-transform duration-300 group-hover:scale-110 border-4 border-white shadow-md "
+              <ImageCard src="/profilelady.jpg" alt="ladysprofile" className="w-full  rounded-2xl object-cover transform transition-transform duration-300 group-hover:scale-110 border-4 border-white shadow-md "
                 />
               {/* Floating Green Circle */}
               <div className="absolute -top-2 -right-2 w-6 h-6 bg-green-500 rounded-full border-2 border-white"></div>
@@ -115,7 +115,7 @@ export function OurFarmers() {
             <div className="flex items-start gap-2 relative">
               {/* Profile Image */}
               <div className="relative group">
-                <ImageCard src="/profileman.jpg" alt="mansprofile" className="w-full h-[20] rounded-2xl object-cover transform transition-transform duration-300 group-hover:scale-110 border-4 border-white shadow-md "
+                <ImageCard src="/profileman.jpg" alt="mansprofile" className="w-full h-[300px] rounded-2xl object-cover transform transition-transform duration-300 group-hover:scale-110 border-4 border-white shadow-md "
                 />
                
               </div>
@@ -123,7 +123,7 @@ export function OurFarmers() {
             </div>
 
             {/* Name & Role */}
-            <div className="mt-4 flex justify-end text-right text-blue-600 bg-orange-200 w-[200px] h-[78px] rounded-3xl">
+            <div className="flex justify-end text-right text-blue-600 bg-orange-200 w-[200px] h-[78px] rounded-3xl">
               <PageHeader title="Peter Mwangi" subtitle="Coffee Farmer" />
             </div>
           </div>
@@ -134,7 +134,7 @@ export function OurFarmers() {
             <div className="flex items-start  relative">
               {/* Profile Image */}
               <div className="relative group">
-                <ImageCard src="/profilelady.jpg" alt="ladysprofile" className="w-full h-[20] rounded-2xl object-cover transform transition-transform duration-300 group-hover:scale-110 border-4 border-white shadow-md "
+                <ImageCard src="/profilelady.jpg" alt="ladysprofile" className="w-full h-[250px] rounded-2xl object-cover transform transition-transform duration-300 group-hover:scale-110 border-4 border-white shadow-md "
                 />
               </div>
 
