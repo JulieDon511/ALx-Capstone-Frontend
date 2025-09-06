@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
     <div className="h-screen ">
-      <HeroCard img="/homepage.jpg" title="Welcome To ShambaSpice" subtitle="Smart Tools for Smarter Farming"/>
+      <HeroCard img="/home2.jpg" title="Welcome To ShambaSpice" subtitle="Smart Tools for Smarter Farming"/>
     </div>
      
         {/* card */}
