@@ -1,6 +1,6 @@
 // src/pages/Contact.jsx
 import { useState } from "react";
-import PageHeader from "../components/PageHeader";
+// import PageHeader from "../components/PageHeader";
 import { HeroCard } from "../components/Card";
 
 export default function Contact() {
