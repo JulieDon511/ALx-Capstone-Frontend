@@ -40,13 +40,14 @@ export const summaries = [
 // dashboard floatingmenu dahsboard
 
 export const menuItems = [
-  { label: 'Home' },
-  { label: 'About' },
-  { label: 'Services' },
-  { label: 'Health-Food' },
-  { label: 'Contact' },
-  { label: 'Shop' }
+  { label: 'Home', href: '/home' },
+  { label: 'About', href: '/about' },
+  { label: 'Services', href: '/services' },
+  { label: 'Health Food', href: '/healthyfoods' },
+  { label: 'Contact', href: '/contact' },
+  { label: 'Shop', href: '/shop' }
 ];
+
 
 //   homepage but rendered or to be imported to the herocard
   export const projects = [

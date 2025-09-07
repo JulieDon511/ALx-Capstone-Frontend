@@ -1,13 +1,16 @@
 import { ImageCard, RectangleCard } from "./Card";
 import PageHeader from "./PageHeader";
+import { Link, useLocation } from 'react-router-dom';
 
 
 
 
 export function FloatingCards({ title, items, showIcons = true }) {
+  const location = useLocation();
+
   return (
     <div className="relative md:col-span-1">
-      <div className="bg-white rounded-lg shadow-lg p-6 w-full max-w-xs mx-auto h-[300px]">
+      <div className="bg-white rounded-lg shadow-lg p-6 w-full max-w-xs mx-auto h-[300px] overflow-y-auto">
         <h2 className="text-xl font-bold text-green-700 mb-4">{title}</h2>
         <ul className="space-y-4 text-gray-700 font-medium">
           {items.map((item, index) => (
@@ -15,7 +18,14 @@ export function FloatingCards({ title, items, showIcons = true }) {
               {showIcons && item.icon && (
                 <item.icon size={32} className="mt-1 text-blue-500" />
               )}
-              {item.label}
+              <Link
+                to={item.href}
+                className={`hover:text-green-600 transition ${
+                  location.pathname === item.href ? 'text-green-700 font-bold' : ''
+                }`}
+              >
+                {item.label}
+              </Link>
             </li>
           ))}
         </ul>
@@ -23,7 +33,6 @@ export function FloatingCards({ title, items, showIcons = true }) {
     </div>
   );
 }
-
 
 
 
