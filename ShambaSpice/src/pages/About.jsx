@@ -1,7 +1,7 @@
 import { ImageCard } from "../components/Card";
 import PageHeader from "../components/PageHeader";
 import { useNavigate } from "react-router-dom";
-import {TestimonialCard} from "../components/FloatingCard";
+import { TestimonialCard } from "../components/FloatingCard";
 import { OurFarmers } from "../components/FloatingCard";
 import { HeroCard } from "../components/Card";
 
@@ -15,24 +15,22 @@ function About() {
   return (
     <>
       {/* Top Banner */}
-       <div className="">
-              <HeroCard img="/Frame.png" title="About Us"    heightClass=" h-[250px]"
-              />
-          </div>
+      <div data-aos="fade-down">
+        <HeroCard img="/Frame.png" title="About Us" heightClass="h-[250px]" />
+      </div>
 
       {/* Middle Content - Two Column Layout */}
-      <div className="bg-white max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-10">
-        
+      <div
+        data-aos="fade-up"
+        className="bg-white max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-10"
+      >
         {/* Image Section */}
-        <div className="relative md:col-span-1 mx-4 md:mx-10">
-          {/* Main Image */}
+        <div className="relative md:col-span-1 mx-4 md:mx-10" data-aos="zoom-in">
           <ImageCard
             src="/milkproduction.jpg"
             alt="Milk Production"
             className="h-[350px] w-full object-cover rounded-lg shadow-lg"
           />
-
-          {/* Smaller Overlapping Image */}
           <ImageCard
             src="/FarmerHavesting.jpg"
             alt="Farmer Harvesting"
@@ -41,7 +39,7 @@ function About() {
         </div>
 
         {/* Text Section */}
-        <div className="md:col-span-1 space-y-4">
+        <div className="md:col-span-1 space-y-4" data-aos="slide-left">
           <h3 className="text-[#EEC044] font-semibold">
             <PageHeader title="Get to know us" />
           </h3>
@@ -81,10 +79,10 @@ function About() {
             Discover More
           </button>
         </div>
-      </div> {/* ✅ Close grid here */}
+      </div>
 
       {/* Full-width Responsive Video Section */}
-      <section className="w-full mt-16 mx-9 m-9">
+      <section className="w-full mt-16 mx-9 m-9" data-aos="fade-up">
         <div className="relative w-full pb-[30%] overflow-hidden">
           <iframe
             className="absolute top-0 left-0 w-full h-full"
@@ -97,9 +95,13 @@ function About() {
         </div>
       </section>
 
-      {/* testimonials */}
-      <TestimonialCard />
-      <OurFarmers />
+      {/* Testimonials */}
+      <div data-aos="fade-up">
+        <TestimonialCard />
+      </div>
+      <div data-aos="fade-up" data-aos-delay="100">
+        <OurFarmers />
+      </div>
     </>
   );
 }

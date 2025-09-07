@@ -1,4 +1,8 @@
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from "react-router-dom";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -14,6 +18,14 @@ import Login from "./pages/Login";
 function LayoutWrapper() {
   const location = useLocation();
   const hideLayout = location.pathname === "/dashboard" || location.pathname === "/login";
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: true,
+      easing: "ease-out"
+    });
+  }, []);
 
   return (
     <div className="min-h-screen flex flex-col">
