@@ -2,6 +2,8 @@ import SummaryCard from '../components/SummaryCard';
 import { FloatingCards } from '../components/FloatingCard';
 import { FarmStatsPanel } from '../components/Card';
 import { summaries, menuItems } from '../Data';
+import PageHeader from '../components/PageHeader';
+// import {RectangleCard} from '../components/Card';
 
 export default function Dashboard() {
   return (
@@ -16,8 +18,10 @@ export default function Dashboard() {
         <div className="md:w-3/4">
           <h1 className="text-3xl font-bold mb-6 text-green-700">Farm Dashboard</h1>
 
+        <PageHeader title="Hello Njagi!" />
+
           {/* Farm Stats Panel */}
-          <FarmStatsPanel />
+        <FarmStatsPanel />
 
           {/* Summary Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
