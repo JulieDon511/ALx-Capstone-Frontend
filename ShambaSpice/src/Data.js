@@ -37,7 +37,7 @@ export const summaries = [
   }
 ];
 
-// dashboard floatingmenu
+// dashboard floatingmenu dahsboard
 
 export const menuItems = [
   { label: 'Home' },
@@ -67,7 +67,7 @@ export const menuItems = [
     },
   ];
 
-//   this one is for the herocard on the floating icon
+//   this one is for the herocard on the floating icon homepage
 export const fruitItems = [
   { label: 'Raspberry', icon: GiRaspberry },
   { label: 'Strawberry', icon: GiStrawberry },
