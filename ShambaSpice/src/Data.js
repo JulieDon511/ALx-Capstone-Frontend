@@ -116,3 +116,18 @@ export const MyList = [
   ];
 
 
+//home aboutinfo
+  export const features = [
+    {
+      title: "Always Fresh",
+      text: "Motionless she end literature. Gay direction neglected but supported.",
+    },
+    {
+      title: "All Organic",
+      text: "Continued up to zealously necessary breakfast. Surrounded sir motionless she end literature.",
+    },
+    {
+      title: "Eco Friendly",
+      text: "Continued up to zealously necessary breakfast. Gay direction neglected but supported yet her.",
+    },
+  ];

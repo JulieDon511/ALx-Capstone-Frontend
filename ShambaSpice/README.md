@@ -71,12 +71,12 @@ Visit the local server URL shown in your terminal (e.g., http://localhost:5173).
 
     
 🌐 Live Demo
-🚀 Live Site: Coming Soon Once deployed, the live link will be added here for easy access.
+🚀 Live Site:
+https://shambaspice-frontend.vercel.app/
 
 🖼️ Screenshots
-Homepage (In Progress)
+Homepage 
 
-Product Listing Page (Planned)
 
 
 

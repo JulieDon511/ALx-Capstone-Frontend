@@ -10,7 +10,7 @@ function ProductInfo() {
   }
   return (
     <>
-      <div onclick={HandleProductaclick} className="bg-[#E9F1EE] py-10">
+      <div onclick={HandleProductaclick} className="bg-[#E9F1EE] py-10 mt-6">
         <div className="text-blue-400 font-stretch-extra-expanded text-center mb-8">
           <PageHeader title="Healthy life with fresh products" />
         </div>

@@ -43,7 +43,7 @@ function HeroCardnfo (){
 
           
              
-             <div className="p-6 bg-white min-h-screen py-26">
+             <div className="p-6 bg-white  ">
                 <FloatingCards title="Fruits & Crops" items={fruitItems} showIcons={true} />
             </div>
 

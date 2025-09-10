@@ -1,25 +1,11 @@
 import { TiTick } from "react-icons/ti";
 import PageHeader from "./PageHeader";
+import { features } from "../Data";
 
 export default function AboutInfo() {
-  const features = [
-    {
-      title: "Always Fresh",
-      text: "Motionless she end literature. Gay direction neglected but supported.",
-    },
-    {
-      title: "All Organic",
-      text: "Continued up to zealously necessary breakfast. Surrounded sir motionless she end literature.",
-    },
-    {
-      title: "Eco Friendly",
-      text: "Continued up to zealously necessary breakfast. Gay direction neglected but supported yet her.",
-    },
-  ];
-
   return (
     <section className="bg-white">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4 py-12">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4 py-">
         
         {/* Features List */}
         <div className="bg-green-500 text-white p-8 rounded-lg space-y-6">
