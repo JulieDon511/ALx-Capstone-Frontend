@@ -1,16 +1,12 @@
 // import React from 'react'
 import PageHeader from "./PageHeader"
 import { ImageCard, RectangleCard } from "./Card"
-import { useNavigate } from "react-router-dom";
 
 function ProductInfo() {
-  const Navigate = useNavigate();
-  const HandleProductaclick= ()=>{
-    Navigate("./projects")
-  }
+
   return (
     <>
-      <div onclick={HandleProductaclick} className="bg-[#E9F1EE] py-10 mt-6">
+      <div className="bg-[#E9F1EE] py-10 mt-6">
         <div className="text-blue-400 font-stretch-extra-expanded text-center mb-8">
           <PageHeader title="Healthy life with fresh products" />
         </div>
